@@ -29,9 +29,9 @@ export default function RootLayout({ children }) {
             <AppBar position="static" color="transparent">
               <Toolbar>
                 <Box sx={{flexGrow: 1,
-                  alignItems: "center",
+                  alignItems: "center",color:'black', fontWeight:'bold',
                   display: "flex",}}>
-                  Calcultor With Regular Expression
+                 ITDesign
                 </Box>
                 <a
                   target="_blank"
