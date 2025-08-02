@@ -1,5 +1,5 @@
 {
-  "name": "itdesign-javascript-react",
+  "name": "Inline Calculator",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest"
+    "test": "jest",
+    "vercel-build": "next build",
+    "deploy": "vercel --prod"
   },
   "dependencies": {
     "@emotion/cache": "^11.11.0",
@@ -29,6 +31,7 @@
     "@types/react": "^18.2.47",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
-    "typescript": "5.8.3"
+    "typescript": "5.8.3",
+    "vercel": "^32.5.0"
   }
 }

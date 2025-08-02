@@ -4,7 +4,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import ThemeProvider from "@mui/material/styles/ThemeProvider";
 import {Inter} from 'next/font/google'
 import {AppRouterCacheProvider} from "@mui/material-nextjs/v13-appRouter";
-import {itdesignTheme} from "@/app/theme";
+import {InlineCalculatorTheme} from "@/app/theme";
 import Toolbar from "@mui/material/Toolbar";
 import {Box} from "@mui/material";
 import IconButton from "@mui/material/IconButton";
@@ -24,14 +24,14 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <AppRouterCacheProvider>
-          <ThemeProvider theme={itdesignTheme}>
+          <ThemeProvider theme={InlineCalculatorTheme}>
             <CssBaseline />
             <AppBar position="static" color="transparent">
               <Toolbar>
                 <Box sx={{flexGrow: 1,
                   alignItems: "center",color:'black', fontWeight:'bold',
                   display: "flex",}}>
-                 ITDesign
+                 Inline Calculator
                 </Box>
                 <a
                   target="_blank"

@@ -2,7 +2,7 @@
 
 import {createTheme} from "@mui/material/styles";
 
-export const itdesignTheme = createTheme({
+export const InlineCalculatorTheme = createTheme({
   palette: {
     primary: {
       main: "#a71417",
